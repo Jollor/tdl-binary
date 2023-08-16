@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const os = require('os')
 
-const VERSION = '1.7.3'
+const VERSION = '1.8.16'
 
 function getDistro() {
   const descr = fs.readFileSync('/etc/os-release', {encoding:'utf8', flag:'r'})
